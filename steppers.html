@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stepper</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!------------------------------------------- Custom CSS Link ------------------------------------------->
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body class="bg-sky">
+    <div class="container border border-1 bg-white">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-12">
+          <div class="d-flex justify-content-center mt-5">
+            <img src="/assets/images/sign-up-logo.png" alt="" />
+          </div>
+          <h6 class="text-center">Welcome to link lvsr !</h6>
+
+          <div class="row mt-4">
+            <div class="col-12 d-flex justify-content-center">
+              <ul class="nav nav-pills nav-justified">
+                <li class="nav-item mx-md-4 mx-4">
+                  <a
+                    class="nav-link active rounded stepper"
+                    href="#step1"
+                    data-toggle="pill"
+                  >
+                    1</a
+                  >
+                </li>
+                <li class="nav-item mx-md-4 mx-4">
+                  <a class="nav-link stepper" href="#step2" data-toggle="pill">
+                    2</a
+                  >
+                </li>
+                <li class="nav-item mx-md-4 mx-4">
+                  <a class="nav-link stepper" href="#step3" data-toggle="pill"
+                    >3</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="step1">
+                  <div class="px-3">
+                    <h1 class="get-started-heading text-center">
+                      lets get started
+                    </h1>
+                    <p class="text-center light-color">
+                      Chose from our selection or designer approved samples or
+                      create your own design from scratch. You can change your
+                      template when you want.
+                    </p>
+                    <a href="#">
+                      <button
+                        class="btn w-100 bg-blue-color text-white py-3 rounded-pill shadow next-step"
+                        type="button"
+                      >
+                        Continue
+                      </button>
+                    </a>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="step2">
+                  <div class="px-3">
+                    <h1 class="get-started-heading text-center">
+                      connect your
+                    </h1>
+                    <p class="text-center light-color">
+                      Social media accounts save time by adding your social
+                      media bundle now. ( you can change it letter )
+                    </p>
+                    <div class="">
+                      <div
+                        class="d-flex justify-content-between social-border p-3 rounded-pill"
+                      >
+                        <div>
+                          <img
+                            src="/assets/images/facebook-logo.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <input
+                            type="text"
+                            placeholder="@Facebook/username"
+                            class="border-0 social-ph"
+                          />
+                        </div>
+                        <div>
+                          <img
+                            src="/assets/images/delete-icon.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <button class="bg-dark rounded-pill text-white px-2">
+                            Add
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between social-border p-3 rounded-pill my-1"
+                      >
+                        <div>
+                          <img
+                            src="/assets/images/instagram-logo.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <input
+                            type="text"
+                            placeholder="@Instagram/username"
+                            class="border-0 social-ph"
+                          />
+                        </div>
+                        <div>
+                          <img
+                            src="/assets/images/delete-icon.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <button class="bg-dark rounded-pill text-white px-2">
+                            Add
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between social-border p-3 rounded-pill my-1"
+                      >
+                        <div>
+                          <img
+                            src="/assets/images/twitter-logo.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <input
+                            type="text"
+                            placeholder="@Twitter/username"
+                            class="border-0 social-ph"
+                          />
+                        </div>
+                        <div>
+                          <img
+                            src="/assets/images/delete-icon.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <button class="bg-dark rounded-pill text-white px-2">
+                            Add
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between social-border p-3 rounded-pill my-1"
+                      >
+                        <div>
+                          <img
+                            src="/assets/images/linkeidn-logo.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <input
+                            type="text"
+                            placeholder="@Linkeidn/username"
+                            class="border-0 social-ph"
+                          />
+                        </div>
+                        <div>
+                          <img
+                            src="/assets/images/delete-icon.svg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <button class="bg-dark rounded-pill text-white px-2">
+                            Add
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#">
+                      <button
+                        class="btn w-100 bg-blue-color text-white py-3 my-3 rounded-pill shadow next-step"
+                        type="button"
+                      >
+                        Continue
+                      </button>
+                    </a>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="step3">
+                  <div class="px-3">
+                    <h1 class="get-started-heading text-center">last step</h1>
+                    <p class="text-center light-color">
+                      To personalize your profile please add a selfie or bio
+                      below.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <div class="add-picture shadow">
+                        <img
+                          src="/assets/images/camera-icon.svg"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <p class="text-center light-color mt-3">Add selfie</p>
+                    <div class="card shadow p-4 bio-card-border mb-2">
+                      <p class="light-color">
+                        Enter Bio for example my name is Dan and iam a Graphic
+                        Designer
+                      </p>
+                    </div>
+                    <a href="./congratulations.html">
+                      <button
+                        class="btn w-100 mb-5 bg-blue-color text-white py-3 rounded-pill shadow"
+                        type="button"
+                      >
+                        Finish setup
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".next-step").click(function () {
+          var $activeTab = $(".nav-pills .nav-link.active");
+          $activeTab.parent().next().find(".nav-link").tab("show");
+        });
+      });
+    </script>
+  </body>
+</html>
